@@ -1,0 +1,23 @@
+*String interpolation: biến typescript bên component, bind value từ component sang view qua {{ }}
+
+*Data binding:
+    - Từ component sang DOM: 2 cách, thông qua property và String interpolation
+    - Từ DOM sang component: Thông qua event
+    - Binding 2 chiều: Thông qua ng-model
+
+*DOM event:
+    - (keyup): Sự kiện sau khi hoàn thành gõ phím.
+
+*Template reference variable
+    - Bắt đầu = dấu #
+    - Có thể được tham chiếu ở component...
+
+*Directive
+    - Đưa ra các chỉ dẫn để Angular chuyển template thành DOM.
+    - 3 loại:
+        + Component: Directive có template
+        + Attribute: Thay đổi hiển thị hoặc hành của các thẻ DOM, component hoặc directive khác. VD: ngStyle, ngClass
+        + Structural: Thêm bớt các thẻ DOM, ảnh hưởng đến hiển thị HTML. Có dấu * VD: *ngIf, *ngFor
+            *ngContent: Tạo khung cho các component khác.
+
+*Angular Pipe: Xem docs... Tham khảo source
